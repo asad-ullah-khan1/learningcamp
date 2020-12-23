@@ -32,5 +32,5 @@ jobs:
       -name: Install surge 
        run: npm install -g surge     
       -name: Run Surge
-       run: surge ./ asadlearninggit.surge.sh --token ${{ SURGE_DEPLOY_TOKEN }}
+       run: surge ./ asadlearninggit.surge.sh --token ${{ secrets.SURGE_DEPLOY_TOKEN }}
  
